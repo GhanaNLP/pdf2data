@@ -1,0 +1,22 @@
+{
+  "name": "English-Twi Dictionary Extractor",
+  "description": "Extracts headwords and their corresponding Twi translations from bilingual dictionary pages, ensuring proper handling of special characters and orthography.",
+  "languages": [
+    "eng",
+    "twi"
+  ],
+  "parallel": true,
+  "doc_type": "dictionary",
+  "fields": [
+    "eng",
+    "twi"
+  ],
+  "skip_page_types": [
+    "cover",
+    "table_of_contents",
+    "blank",
+    "index",
+    "preface"
+  ],
+  "extraction_prompt": "Analyze the provided dictionary page image. Identify all dictionary entries. For each entry, extract the English headword and its corresponding Twi translation(s). If an entry contains multiple Twi variants or synonyms separated by commas, semicolons, or slashes, split them into individual JSON objects. Ensure all special characters and diacritics (e.g., ɛ, ɔ, ŋ, ṅ, ã, ḍ, ṭ) are preserved exactly as they appear in the text, adhering to standard Akan orthography. Return the output as a JSON object with the schema: {\"results\": [{\"eng\": \"...\", \"twi\": \"...\"}, ...]}. If the page is not a content page, return {\"results\": []}. Return ONLY valid JSON."
+}
