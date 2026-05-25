@@ -1,22 +1,20 @@
 {
-  "name": "English-Twi Dictionary Extractor",
-  "description": "Extracts headwords and their corresponding Twi translations from bilingual dictionary pages, ensuring proper handling of special characters and orthography.",
+  "name": "Ghanaian Folklore Narrative Extraction",
+  "description": "Extracts full-text narrative prose from books containing Twi and English folktales.",
   "languages": [
-    "eng",
-    "twi"
+    "twi",
+    "eng"
   ],
-  "parallel": true,
-  "doc_type": "dictionary",
+  "parallel": false,
+  "doc_type": "stories",
   "fields": [
-    "eng",
-    "twi"
+    "twi",
+    "eng"
   ],
   "skip_page_types": [
-    "cover",
-    "table_of_contents",
     "blank",
-    "index",
-    "preface"
+    "cover",
+    "table_of_contents"
   ],
-  "extraction_prompt": "Analyze the provided dictionary page image. Identify all dictionary entries. For each entry, extract the English headword and its corresponding Twi translation(s). If an entry contains multiple Twi variants or synonyms separated by commas, semicolons, or slashes, split them into individual JSON objects. Ensure all special characters and diacritics (e.g., ɛ, ɔ, ŋ, ṅ, ã, ḍ, ṭ) are preserved exactly as they appear in the text, adhering to standard Akan orthography. Return the output as a JSON object with the schema: {\"results\": [{\"eng\": \"...\", \"twi\": \"...\"}, ...]}. If the page is not a content page, return {\"results\": []}. Return ONLY valid JSON."
+  "extraction_prompt": "Analyze the provided page image. If the page is a blank page, cover, or table of contents, return {\"results\": []}. If the page contains narrative prose (folklore/stories), return the full text of the page as a single entry. Use the following JSON schema: {\"results\": [{\"twi\": \"...\"}]} if the page is in Twi, or {\"results\": [{\"eng\": \"...\"}]} if the page is in English. For Twi text, you must use the current standard orthography (e.g., Bureau of Ghana Languages standard), ensuring that special characters such as 'ɛ', 'ɔ', and 'ŋ' are correctly preserved and used instead of older or simplified ASCII approximations. Maintain original line breaks and paragraph structure within the string. Do not include page numbers or illustration captions in the extracted text unless they are part of the narrative flow. Return ONLY valid JSON."
 }
