@@ -1,0 +1,196 @@
+page,eng,twi
+1,a between apple and calm,a
+1,pronounced 'ae',æ
+1,a as in day (with i or u),e
+1,i as in sit (with ɔ or ɛ),e
+1,e as in get,ɛ
+1,ea as in seat,i
+1,o as in go (with i or u),o
+1,oo as in book (with ɔ or ɛ),o
+1,aw as in law,ɔ
+1,o as in do,u
+1,b as in bat,b
+1,d as in dog,d
+1,f as in fun,f
+1,g as in get,g
+1,h as in how,h
+1,k as in kennel,k
+1,l as in last,l
+1,m as in mill,m
+1,n as in neat,n
+1,p as in pin,p
+1,r as in rabbit,r
+1,s as in sit,s
+1,t as in top,t
+1,"w as in wall, but pronounced 'yw' before i, e or ɛ",w
+1,y as in yolk,y
+2,Welcome,Akwaaba
+2,Come in.,Bra mu.
+2,Knocking.,Kɔkɔɔkɔ
+2,Good morning.,Mema wo akyɛ (maakyɛ)
+2,Good afternoon.,Mema wo ahã (maahã)
+2,Good evening.,Mema wo adwo (maadwo)
+2,Response to older male,Yaa agya
+2,Response to older female,Yaa ɛna
+2,"Response, child to adult",Yaa ɔba
+2,Response to peer,Yaa nua (yae ænwiã)
+2,Goodbye.,Nante yie
+2,Response:,Yoo
+2,Bye.,Kɔ bra.
+2,See you later.,Yɛbɛhyia (yebehyia) bio.
+2,How are you?,Wo hɔ te sɛn?
+2,I'm fine.,Me hɔ yɛ.
+2,And you?,Na wo nso ɛ?
+2,How's it going?,ɛte sɛn?
+2,How's it going?,mpɔ mu?
+2,My name is...,Wɔfre/Yɛfre me...
+2,What is your name?,Mepaakyɛ yɛfre wo sɛn?
+2,I am from America.,Mefi... (mifi)
+2,Where are you from?,Wofi(ri) hɛ?
+2,What are you doing in Ghana?,Woreyɛ (wooyɛ) deɛn wɔ Ghana?
+2,I'm a student.,Meyɛ osũãni (oswĩɛni)
+3,Thank you,Meda wo ase
+3,Thank you,medaase
+3,Thanks,aseda
+3,Please,Mepa wo kyɛw
+3,Please,mepaakyɛw
+3,Sorry,kosɛ
+3,Excuse me (to get attention or to pass),agoo
+3,I/me,me
+3,You (formal),wo
+3,He/she/it,ɔno
+3,It (inanimate),ɛno
+3,We,yɛn
+3,They,wɛn
+3,They,wɔnom
+3,They,ɔmo
+3,Friend,adamfo
+3,Family,abusũã
+3,Family,æbuswĩã
+3,Daughter,ɔba baa
+3,Son,ɔba barima
+3,Son,bɛɛma
+3,Brother,nua
+3,Sister,nua
+3,Father,papa
+3,Mother,maame
+3,Husband,kunu
+3,Wife,yere
+3,Man,ɔbarima
+3,Woman,ɔbaa
+3,Doctor,yaresafoɔ
+3,Teacher,ɔkyerɛkyerɛfo
+3,Teacher,tikya
+3,Sir/Mr.,Owura
+3,Lady/Ma'am,Awuraa
+3,Slightly Older Male,Brother
+3,Slightly Older Female,Sister
+3,Male your father's age,ɛpanyin
+3,Female your mother's age,ɔbaa panyin
+3,Chief,ɔhene
+3,Chief,ɔhemaa
+3,I am hungry.,ɛkɔm de me.
+3,I am thirsty.,Sukɔm de me.
+3,I want...,Mepɛ...
+3,Food,aduane
+3,Bread,paanoo
+3,Meat,ɛnam
+3,Fish,nsuomnam
+4,Fruit,duaba
+4,Chicken,akokɔnam
+4,Banana,kwadu (kwædu)
+4,Pineapple,aborɔbɛ
+4,Plantain,borɔdɛɛ
+4,Yam,bayerɛ
+4,Eggs,nkosua
+4,Rice,ɛmo
+4,Stew,frɔeɛ
+4,Cassava,bankye
+4,Coffee,kɔfe
+4,Tea,tii
+4,Water,nsuo
+4,Alcohol,nsã
+4,Delicious,dɛdɛɛdɛ
+4,Where is it?,ɛhẽ na ɛwɔ?
+4,Where is it?,ɛwɔ hẽ?
+4,Market,edwa
+4,Church,asɔre
+4,Shop,sotɔɔ
+4,School,sukuu
+4,Hospital,ayaresabea
+4,House/Home,fie
+4,Bathroom,adwareɛ
+4,Toilet,tiafi
+4,Kitchen,gyaade
+4,Garden,turo
+4,How much?,sɛn?
+4,How much is this?,Wei yɛ sɛn?
+4,Money,sika
+4,Price,ɛboɔ
+4,Too much,dodo
+4,Morning,anɔpa
+4,Afternoon,awia
+4,Evening,anwumerɛ
+4,Night,anadwo
+5,Yes,aane
+5,No,daabi
+5,Maybe,ebia
+5,Okay,yoo
+5,Now,seesei
+5,Later,akyire yi
+5,What is this?,ɛdeɛn ni?
+5,I want to go...,Mepɛ sɛ mekɔ...
+5,I am tired.,Brɛ de me.
+5,To be lost,yera
+5,I don't feel good.,Mente apɔɔ.
+5,I am happy.,M'ani asɔ
+5,I am happy.,M'ani agye
+5,I don't understand.,Mente aseɛ
+5,Do you speak English?,Woka borɔfo anaa?
+5,Help!,Mboa
+5,Who?,hena?
+5,Where?,ɛhɛ?
+5,Why?,adɛn?
+5,What?,ɛdeɛn? bɛn?
+5,How?,sɛ nea?
+5,Peace,asomdwee
+5,Love,adɔe
+5,Work,adwuma
+5,Enough,sõ
+5,Beautiful,fɛ
+5,Slowly,brɛoo/bɔkɔɔ
+5,Strength,ahoɔden
+5,Bad,nyɛ
+5,Good,papa
+5,Overseas,aburokyire
+5,White person,oburoni
+5,Congratulations!,Mo!
+6,1,baakõ
+6,2,mmienu
+6,3,mmeɛnsã
+6,4,ɛnan
+6,5,enum
+6,6,ensĩã
+6,7,enson
+6,8,nwɔtwe
+6,9,ɛnkron
+6,10,edu
+6,11,du baakõ
+6,12,du mmienu
+6,13,du mmeɛnsã
+6,14,du nan
+6,15,du num
+6,16,du nsĩã
+6,17,du nson
+6,18,du nwɔtwe
+6,19,du nkron
+6,20,aduonu
+6,30,aduasã
+6,40,aduanan
+6,50,aduonum
+6,60,aduosĩã
+6,70,aduɔson
+6,80,aduɔwɔtwe
+6,90,aduɔkron
+6,100,ɔha
+6,"1,000",apem

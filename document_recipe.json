@@ -1,0 +1,22 @@
+{
+  "name": "Akan Customary Law Extraction",
+  "description": "Extracts legal and anthropological concepts, customary law definitions, and cultural terminology from narrative prose in books on Akan laws and customs.",
+  "languages": [
+    "eng",
+    "twi"
+  ],
+  "parallel": false,
+  "doc_type": "legal",
+  "fields": [
+    "eng",
+    "twi"
+  ],
+  "skip_page_types": [
+    "cover",
+    "table_of_contents",
+    "blank",
+    "index",
+    "bibliography"
+  ],
+  "extraction_prompt": "Analyze the provided page image. This document is a legal and anthropological text containing continuous prose. If the page is a cover, table of contents, or blank, return an empty results list: {\"results\": []}. Otherwise, identify key legal or cultural terms, concepts, or customary law definitions discussed in the text. For each identified term or concept, extract the English explanation or term. If the text provides a corresponding Twi term (often found as loanwords or in parentheses), include it in the 'twi' field. If a single entry contains multiple variants or synonyms, split them into individual JSON objects. Ensure all Twi terms use the current standard orthography (e.g., using ɛ, ɔ, ŋ, and correct diacritics). Return ONLY valid JSON with the schema: {\"results\": [{\"eng\": \"...\", \"twi\": \"...\"}]}. If no Twi term is present for a concept, omit the 'twi' key or set it to null. Preserve all special characters exactly as they appear in the source text."
+}
