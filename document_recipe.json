@@ -1,0 +1,22 @@
+{
+  "name": "Twi-English Dictionary Extraction",
+  "description": "Extracts headwords and definitions from a Twi-English dictionary, splitting multi-term entries into individual records.",
+  "languages": [
+    "twi",
+    "eng"
+  ],
+  "parallel": false,
+  "doc_type": "dictionary",
+  "fields": [
+    "twi",
+    "eng"
+  ],
+  "skip_page_types": [
+    "cover",
+    "table_of_contents",
+    "blank",
+    "index",
+    "preface"
+  ],
+  "extraction_prompt": "Analyze the provided dictionary page. Identify each dictionary entry. For each entry, extract the headword (Twi) and its corresponding definition/explanation (English). If an entry contains multiple headwords (e.g., 'aba, afa'), split them into separate results. Ensure all special characters (ɛ, ɔ, ŋ, and diacritics) are preserved exactly as they appear. Use the standard Akan orthography. If the page is not a content page (e.g., cover, blank, TOC), return an empty list. Return ONLY valid JSON with the following schema: {\"results\": [{\"twi\": \"...\", \"eng\": \"...\"}]}. Do not include any markdown formatting or conversational text."
+}
