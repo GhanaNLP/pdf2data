@@ -27,7 +27,7 @@ from collections import defaultdict, Counter
 # CONFIGURATION
 # ════════════════════════════════════════════════════════════
 
-DATA_DIR = "/home/owusus/Documents/GitHub/pdf2data/data/twi"
+DATA_DIR = "/home/owusus/Documents/GitHub/archives2data/data/twi"
 OUTPUT_SENTENCES = "parallel_sentences.csv"
 OUTPUT_WORDS     = "parallel_words.csv"
 
